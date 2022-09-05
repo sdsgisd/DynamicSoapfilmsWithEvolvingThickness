@@ -1,6 +1,6 @@
 # DynamicSoapfilmsWithEvolvingThickness
 
-This is an implementation of the paper **“A Model for Soap Film Dynamics with Evolving Thickness
+This is an example implementation of the paper **“A Model for Soap Film Dynamics with Evolving Thickness
 ”** Ishida\*, Synak\*, Narita, Hachisuka, Wojtan, Transactions on Graphics (SIGGRAPH 2020).
 
 [[Project site]][P]  
@@ -21,18 +21,18 @@ Space: Turn on/off the clock.
 s: Proceed one time step.   
 i: Change simulation mode 0. Eulerian flow only 1. Lagrangian deformation only 2. Both of them  
 
-C: Add random velocities using curl noise.
+C: Add random velocities using curl noise.  
 P: Add random thickness using Perlin noise.
 
 b: Burst the bubble with the thinnest film among.    
 B: Toggle thickness-dependent bubble burst.  
 e: Toggle evaporation.
  
-\/: Switch the equation between our soap film model and the incompressible Euler equation.
+\/: Switch the equation between our soap film model and the incompressible Euler equation.  
 D: Turn on/off the scene specific update.   
 
 m: Change rendering mode.  
-v: Toggle visualization of Eulerian velocities on vertices.
+v: Toggle visualization of Eulerian velocities on vertices.  
 t: Toggle visualization of Eulerian velocities on triangles.   
 
 o: Save the state as files containing information of mesh, labels, and constrained vertices.  
