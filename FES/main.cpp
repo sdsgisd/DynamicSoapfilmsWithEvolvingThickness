@@ -248,11 +248,11 @@ void keyboard(unsigned char k, int x, int y)
 #ifdef FEOS
             int burstedRegion=-1;
             if(hgf->burstType==HGF::Random){
-                //Burst a randomly chosen bubble.cone
+                //Burst a randomly chosen bubble.
                 burstedRegion=Scenes::burstOneBubble(g_sim.m_dt, &g_sim, hgf);
             }
             if(hgf->burstType==HGF::Thickness){
-                //Burst a randomly chosen bubble.cone
+                //Burst the bubble with thinnest film.
                 burstedRegion=Scenes::burstThinnestBubble(g_sim.m_dt, &g_sim, hgf);
                 std::cout<<"region "<<burstedRegion<<" bursted.\n";
             }
