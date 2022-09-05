@@ -1,4 +1,4 @@
-# DynamicSoapfilmsWithEvolvingThickness
+# Dynamic Soapfilms with Evolving Thickness
 
 This is an example implementation of the paper **“A Model for Soap Film Dynamics with Evolving Thickness
 ”** Ishida\*, Synak\*, Narita, Hachisuka, Wojtan, Transactions on Graphics (SIGGRAPH 2020).
