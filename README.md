@@ -10,7 +10,7 @@ This is an example implementation of the paper **“A Model for Soap Film Dynami
 
 [Y]:https://www.youtube.com/watch?v=Pr1zibwxAKU
 [P]:https://sadashigeishida.bitbucket.io/soapfilm_with_thickness  
-Author: Sadashige Ishida, Fumiya Narita, and Peter Synak  
+Authors: Sadashige Ishida, Fumiya Narita, and Peter Synak  
 Lisence: MPL-2.0
 
 ## Basic Usage
