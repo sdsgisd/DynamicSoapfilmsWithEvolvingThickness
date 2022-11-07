@@ -338,7 +338,7 @@ void Sim::step()
         
     }
     
-    if(Options::boolValue("bottom-level")!=-1000.0){
+    if(Options::doubleValue("bottom-level")!=-1000.0){
         Scenes::wall_collision(m_dt, this,hgf);
     }
     
